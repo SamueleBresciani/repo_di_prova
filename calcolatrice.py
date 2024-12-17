@@ -4,7 +4,9 @@ while(scelta!=0):
     print("Inseisci l'operazione che vuoi effettuare")
     scelta = int(input("1) Sottrazzione\n2) Addizzione\n0) Exit"))
 
-    if scelta == 1:
+    if scelta == 0:
+        break
+    elif scelta == 1:
         n_1 = int(input("inserisci il primo numero: "))
         n_2 = int(input("inserisci il secondo numero: "))
         risultato = n_1 - n_2
