@@ -1,3 +1,4 @@
+import calcolatrice as clc
 while True:
     print("benvenuto nella nostra calcolatrice") 
     print("inserisci l'operazione che vuoi effettuare: ") 
@@ -5,8 +6,8 @@ while True:
     if scelta ==0 : 
         break 
     elif scelta==1: 
-        sottrazzione()
+        clc.sottrazzione()
     elif scelta==2: 
-        somma()  
+        clc.somma()  
     else: 
         print("scelta non corretta !!")
